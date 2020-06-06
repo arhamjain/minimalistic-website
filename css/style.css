@@ -1,0 +1,150 @@
+body{
+    background:#8080801f;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0px 0px 10px 3px;
+    
+}
+
+.header{
+    padding: 20px 0 15px 15px;
+    border: 2px solid #206363;
+    background:#ffe4c426;
+}
+
+
+
+.header a{
+    text-decoration: none;
+    color: #2a5454ed;
+    font-size:28px;
+    font-weight: bold;
+
+}
+
+.menu{
+    background:#206363;
+    padding:6px 20px 6px 15px;
+
+}
+
+.menu a{
+    color: bisque;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.right{
+    float: right;
+}
+
+.menu a:hover{
+    color:burlywood;
+}
+
+aside{
+    float: left;
+    width: 120px;
+    height: 100px;
+    padding: 0px 5px 5px 20px;
+    font-family:sans-serif;
+    color: #196262d9;
+}
+
+.header a:hover{
+    color:black;
+}
+
+.main{
+    margin: 0px 0px 0px 130px;
+    text-align: justify;
+    padding:15px;
+    font-family:sans-serif;
+    
+}
+
+#home-img img{
+    width: 100%;
+    
+}
+
+footer{
+    padding: 6px 30px 6px 30px;
+    background: #8080805c;
+    font-size: 12px;
+    text-align: right;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color:purple;
+}
+
+
+/**********************About******************/
+
+#about #home-img img{
+    width: 70%;
+    float: left;
+    margin: 0px 5px 10px 0px;    
+}
+
+#about #info{
+    float: right;
+    width: 25%;
+    font-size: 13px;
+}
+
+#about .desc{
+    clear: both;
+}
+
+
+/**********************Contact******************/
+
+
+#contact .heading{
+    text-align: center;
+    margin:10px;
+    color: #196262d9;
+}
+
+#contact #form {
+    
+    width: 90%;
+    margin: 0 auto;
+    box-shadow:1px 0px 7px 1px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+#contact #form input,#mbox{
+    width: 100%;
+    border-radius: 5px;
+    background:#ffe4c426;
+    
+}
+
+#contact #form label{
+    font-weight:bolder;
+    color: #206363;
+}
+
+#contact #form #submit{
+    font-size: 16px;
+    height:30px;
+    background:#206363; 
+    color: antiquewhite;
+
+}
+
